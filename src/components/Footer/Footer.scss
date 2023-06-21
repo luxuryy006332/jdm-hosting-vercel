@@ -1,0 +1,75 @@
+.logo_footer {
+
+    @media (max-width: 1024px) {
+        width: 85px;
+        margin-right: 35px;
+    }
+
+    @media (max-width: 768px) {
+        width: 70px;
+        margin-right: 25px;
+    }
+}
+
+.footer_wrap {
+    width: 100vw;
+    min-height: 30vh;
+    background: #151530;
+}
+
+.last_wrapper {
+    padding: 60px 0 0 0;
+}
+
+.last_inner {
+    display: flex;
+    justify-content: space-between;
+
+    .last_items {
+        display: flex;
+    }
+}
+
+.info {
+    margin-right: 200px;
+
+    @media (max-width: 1024px) {
+        margin-right: 35px;
+    }
+
+    @media (max-width: 768px) {
+        margin-right: 60px;
+    }
+
+    @media (max-width: 320px) {
+        margin-right: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    ul {
+        li {
+            font-family: 'Mohave';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 35px;
+            display: flex;
+            align-items: center;
+
+            color: #FFFFFF;
+
+            @media (max-width: 768px) {
+                font-size: 19px;
+            }
+        }
+    }
+}
+
+.delete {
+    @media (max-width: 320px) {
+        display: none;
+    }
+}

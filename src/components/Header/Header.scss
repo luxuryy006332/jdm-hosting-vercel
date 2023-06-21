@@ -1,0 +1,202 @@
+.head {
+    width: 100vw;
+    min-height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../assets/images/back_main.gif);
+    position: relative;
+
+    &::before {
+        content: 'JDM - GUNS: MACHINES TO NEVER FORGET';
+        display: inline;
+
+        position: absolute;
+        right: 17.5%;
+        bottom: 1%;
+
+        font-family: 'Mohave';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 52px;
+
+        color: #FFFFFF;
+
+        @media (max-width: 768px) {
+            font-size: 25px;
+        }
+
+        @media (max-width: 320px) {
+            top: 630px;
+            right: 0.5%;
+            text-align: right;
+        }
+    }
+}
+
+.header_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+    position: relative;
+    z-index: 3;
+}
+
+.nav_link {
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 52px;
+    text-decoration: none;
+    margin-right: 89px;
+
+    color: #FFFFFF;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @media (max-width: 1024px) {
+        margin-right: 40px;
+    }
+
+    @media (max-width: 768px) {
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+    @media (max-width: 320px) {
+        margin-right: 18px;
+        font-size: 17px;
+    }
+}
+
+.active {
+    font-family: 'Mohave';
+    font-weight: 700;
+
+    &::after {
+        content: '';
+        display: block;
+    
+        width: 46px;
+        height: 69px;
+    
+        position: absolute;
+        right: 638px;
+        top: 27px;
+
+        background: url(../../assets/images/firstNav.svg);
+
+        @media (max-width:1024px) {
+            right: 490px;
+        }
+
+        @media (max-width:768px) {
+            right: 357px;
+            top: 19px;
+            display: none;
+
+        }
+    }
+
+    &:nth-child(2) {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 97px;
+            height: 60px;
+
+            position: absolute;
+
+            left: 20px;
+            top: -25px;
+
+            background: url(../../assets/images/pngwing.svg);
+
+            @media (max-width:768px) {
+                left: 0px;
+                top: -29px;
+                display: none;
+
+            }
+        }
+    }
+
+    &:nth-child(3) {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 56px;
+            height: 60px;
+
+            position: absolute;
+
+            left: 8px;
+            top: -38px;
+
+            background: url(../../assets/images/pngegg.svg);
+
+            @media (max-width:768px) {
+                top: -45px;
+                display: none;
+
+            }
+        }
+    }
+
+    &:nth-child(4) {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 56px;
+            height: 60px;
+
+            position: absolute;
+
+            left: -43px;
+            top: -15px;
+
+            background: url(../../assets/images/pngegg2.svg);
+
+            @media (max-width:768px) {
+                left: -45px;
+                top: -25px;
+                display: none;
+            }
+        }
+    }
+}
+
+
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav {
+    
+}
+
+.header_item_logo {
+
+    img {
+        
+        @media (max-width: 768px) {
+            width: 70px;
+        }
+    }
+}
