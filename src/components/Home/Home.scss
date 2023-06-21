@@ -22,7 +22,7 @@
 
         background: url(../../assets/images/arrow.svg) no-repeat;
 
-        @media (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
             display: none;
         }
     }
@@ -51,7 +51,7 @@
 
         color: #FFFFFF;
 
-        @media (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
             font-size: 19px;
         }
     }
@@ -67,7 +67,7 @@
 
     .slider_item {
         img {
-            @media (max-width: 320px) {
+            @media only screen and (max-width: 425px) {
                 width: 100%;
             }
         }
@@ -77,16 +77,16 @@
             margin-right: 0;
         }
 
-        @media (max-width: 320px) {
+        @media only screen and (max-width: 425px) {
             margin: 0;
         }
     }
-    @media (max-width: 1024px) {
+    @media only screen and (max-width: 1024px) {
         flex-direction: column;
         margin: 25%;
     }
 
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         flex-direction: column;
         margin: 19%;
     }
@@ -116,7 +116,7 @@
 
         color: #FFFFFF;
 
-        @media (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
             font-size: 19px;
 
         }
@@ -130,7 +130,7 @@
     flex-direction: column;
 
     img {
-        @media (max-width: 320px) {
+        @media only screen and (max-width: 425px) {
             width: 100%;
         }
     }
@@ -149,11 +149,11 @@
 
         color: #FFFFFF;
 
-        @media (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
             font-size: 19px;
         }
 
-        @media (max-width: 320px) {
+        @media only screen and (max-width: 425px) {
             margin: 0 0 80px 0;
         }
     }
